@@ -19,7 +19,7 @@ a {
 }
 header,
 footer {
-  font-size: 1.5em;
+  font-size: 1em;
 }
 .container {
   max-width: 1300px;
@@ -42,7 +42,7 @@ footer {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   background: #fff;
   border-radius: 3px;
   overflow: hidden;
@@ -57,7 +57,7 @@ footer {
   object-fit: cover;
 }
 .grid-item-content {
-  padding: 3rem;
+  padding: 2rem;
 }
 
 .content {
