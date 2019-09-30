@@ -8,11 +8,11 @@ title: Articles from Medium
 {% for item in medium.posts %}
   <div class="col box">
   <a class="grid-item" href="/{{ item.path }}">
+  {{ item['content:encoded'] | safe }}
     <div class="grid-item-content">
     <div class="date-title"> {{ item.pubDate | date }} by {{ item['dc:creator'] }}</div>
     <h1 class="heading">{{ item.title }}</h1>
     </div>
-   {{ item['content:encoded'] | safe }}
    </a>
   </div>
  {% endfor %}
