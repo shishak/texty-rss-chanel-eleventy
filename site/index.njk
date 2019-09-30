@@ -8,7 +8,7 @@ title: Articles from Medium
 {% for item in medium.posts %}
   <li>
     <div class="meta">Published on {{ item.pubDate | date }} by {{ item['dc:creator'] }}</div>
-    <h3><a href="/news/{{ item.path }}">{{ item.title }}</a></h3>
+    <h3><a href="/{{ item.path }}">{{ item.title }}</a></h3>
    {{ item['content:encoded'] | safe }}
   </li>
  {% endfor %}
