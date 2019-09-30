@@ -47,11 +47,11 @@ footer {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   background: #fff;
-  border-radius: 3px;
+  border-radius: 6px;
   overflow: hidden;
-  border: 1px solid #eee;
+  border: 1px solid #dcdcdc;
  }
 .grid-item:hover {
   cursor: pointer;
