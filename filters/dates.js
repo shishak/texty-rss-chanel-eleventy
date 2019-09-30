@@ -3,18 +3,18 @@
 */
 module.exports = function(date) {
   var month = [
-     "Січень",
-     "Лютий",
-     "Березень",
-     "Квітень",
-     "Може",
-     "Червень",
-     "Липень",
-     "Серпень",
-     "Вересень",
-     "Жовтень",
-     "Листопад",
-     "Грудень"
+     "Січня",
+     "Лютого",
+     "Березня",
+     "Квітня",
+     "Травня",
+     "Червеня",
+     "Липня",
+     "Серпня",
+     "Вересеня",
+     "Жовтня",
+     "Листопада",
+     "Груденя"
   ];
   var ordinal = {
     1 : "",
@@ -26,5 +26,5 @@ module.exports = function(date) {
     31 : ""
   };
   var d = new Date(date);
-  return month[d.getMonth()] + " " + d.getDate() + (ordinal[d.getDate()] || "") + " " +d.getUTCFullYear();
+  return month[d.getDate()] + " " + d.getMonth() + " " +d.getUTCFullYear();
 }
