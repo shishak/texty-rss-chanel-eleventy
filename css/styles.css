@@ -143,8 +143,13 @@ h2 {
     font-weight: 500;
 }
 
-
-.box:nth-of-type(1) img, .box:nth-of-type(2) img, .box:nth-of-type(3) img {
+@media only screen and (min-width: 64em) {
+.box:nth-of-type(3) img, .box:nth-of-type(4) img {
     margin-bottom: -160px;
-    background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0) 7%, rgba(0, 0, 0, 0.08) 12%, rgba(0, 0, 0, 0.16) 17%, rgba(0, 0, 0, 0.22) 21%, rgba(0, 0, 0, 0.32) 26%, rgba(0, 0, 0, 0.42) 32%, rgba(0, 0, 0, 0.52) 38%, rgba(0, 0, 0, 0.62) 47%, rgba(0, 0, 0, 0.72) 57%, rgba(0, 0, 0, 0.82) 65%);
+    background-image: linear-gradient(-180deg,transparent 7%,rgba(0,0,0,.08) 12%,rgba(0,0,0,.16) 17%,rgba(0,0,0,.22) 21%,rgba(0,0,0,.32) 26%,rgba(0,0,0,.42) 32%,rgba(0,0,0,.52) 38%,rgba(0,0,0,.62) 47%,rgba(0,0,0,.72) 57%,rgba(0,0,0,.82) 65%);
 }
+ .box:nth-of-type(3) h2, .box:nth-of-type(4) h2 {
+    color: #fff;
+}
+}
+
