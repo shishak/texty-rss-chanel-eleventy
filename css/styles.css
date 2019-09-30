@@ -62,6 +62,7 @@ footer {
 }
 .date-title {
   font-size: 12px;
+  text-align: center;
 }	
 
 .content {
@@ -88,6 +89,7 @@ h1, h2 {
 h1 {
   font-size: 2.5rem;
   max-width: 900px;
+  text-align: center;
 }
 h2 {
   font-size: 1.5rem;
