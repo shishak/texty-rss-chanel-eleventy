@@ -82,7 +82,7 @@ footer {
 .grid-item img {
   width: 100%;
   display: block;
-  max-height: 150px;
+  max-height: 250px;
   object-fit: cover;
 }
 .grid-item-content {
@@ -113,6 +113,11 @@ footer {
 }
 }
 
+.grid p{display:none}
 
+.grid p:nth-child(1) {
+	display:block;
+	margin:0;
+}
 
 
