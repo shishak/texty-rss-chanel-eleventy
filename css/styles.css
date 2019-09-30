@@ -27,7 +27,8 @@ body {
 
 a:link,
 a:visited {
-  color: #222;
+  text-decoration: none;
+  color: gray;
 }
 
 header,
@@ -48,10 +49,9 @@ footer {
 
 
 .container {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
+  max-width: 1300px;
+  padding: 15px;
+  margin: 0 auto; 
 }
 @media (min-width: 800px) {
   .container {
