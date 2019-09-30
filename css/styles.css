@@ -70,14 +70,10 @@ footer {
   background: #fff;
   border-radius: 3px;
   overflow: hidden;
-  transition: opacity .2s;
   box-shadow: 1px 1px 5px 0 rgba(0,0,0,.02), 1px 1px 15px 0 rgba(0,0,0,.03);
-    transition: transform .3s,background-color .3s,box-shadow .4s;  
  }
 .grid-item:hover {
 	cursor: pointer;
-	opacity: .9;
-	box-shadow: 1px 10px 30px 0 rgba(0,0,0,.1);
 }
 .grid-item img {
   width: 100%;
