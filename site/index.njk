@@ -4,12 +4,16 @@ title: Articles from Medium
 ---
 
 
-<ul class="listing">
+<div class="grid">
 {% for item in medium.posts %}
-  <li>
-    <div class="meta">Published on {{ item.pubDate | date }} by {{ item['dc:creator'] }}</div>
-    <h3><a href="/{{ item.path }}">{{ item.title }}</a></h3>
+  <div class="col box">
+  <a class="grid-item" href="/{{ item.path }}">
+    <div class="grid-item-content">
+    <div class="date-title"> {{ item.pubDate | date }} by {{ item['dc:creator'] }}</div>
+    <h1 class="heading">{{ item.title }}</h1>
+    </div>
    {{ item['content:encoded'] | safe }}
-  </li>
+   </a>
+  </div>
  {% endfor %}
-</ul>
+</div>
