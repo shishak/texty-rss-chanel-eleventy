@@ -62,7 +62,10 @@ footer {
   object-fit: cover;
 }
 .grid-item-content {
-  padding: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .date-title-home {
   font-size: 12px;
