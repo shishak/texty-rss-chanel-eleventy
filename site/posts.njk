@@ -6,10 +6,5 @@ pagination:
   alias: item
 permalink: /{{ item.path }}/index.html
 ---
-
-<div class="date-title">{{ item.pubDate | date }} вiд {{ item.category }}</div>
-<h1>{{ item.title }}</h1>
-<div class="content">
-  {{ item['content:encoded'] | safe }}
-</div>
+<div class="date-title">{{ item.pubDate | date }} вiд {{ item.category }}</div><h1>{{ item.title }}</h1><div class="content">{{ item['content:encoded'] | safe }}</div>
 
