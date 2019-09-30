@@ -58,11 +58,11 @@ footer {
 }
 .grid-item img {
   width: 100%;
-  max-height: 210px;
+  max-height: 250px;
   object-fit: cover;
 }
 .grid-item-content {
-  padding: 1rem;
+  padding: 2rem;
 }
 .date-title-home {
   font-size: 12px;
