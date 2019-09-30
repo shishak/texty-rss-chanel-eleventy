@@ -95,7 +95,7 @@ footer {
 .content img {
     margin-bottom: 30px;
     margin-left: -40px;
-    max-height: 450px;
+    
     object-fit: cover;
     width: 110%;
     border-radius: 5px;
