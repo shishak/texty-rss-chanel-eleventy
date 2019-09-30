@@ -16,15 +16,6 @@ module.exports = function(date) {
      "Листопада",
      "Грудня"
   ];
-  var ordinal = {
-    1 : "",
-    2 : "",
-    3 : "",
-    21 : "",
-    22 : "",
-    23 : "",
-    31 : ""
-  };
   var d = new Date(date);
-  return month[d.getMonth()] + " " + d.getDate() + (ordinal[d.getDate()] || "th") + " " +d.getUTCFullYear();
+  return month[d.getMonth()] + " " + d.getDate() + " " +d.getUTCFullYear();
 }
