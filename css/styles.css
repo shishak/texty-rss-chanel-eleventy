@@ -28,6 +28,9 @@ header,
 footer {
   font-size: 1em;
 }
+header {
+  height: 200px;
+}
 .container {
   max-width: 1200px;
   padding: 10px;
@@ -86,6 +89,7 @@ footer {
 .content {
   max-width: 700px;
   margin: 0 auto;
+  padding-bottom: 50px;
 }
 .content p {
   font-family: Georgia,Cambria,"Times New Roman",Times,serif;
