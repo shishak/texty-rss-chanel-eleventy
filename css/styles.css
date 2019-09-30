@@ -64,10 +64,13 @@ footer {
 .grid-item-content {
   padding: 2rem;
 }
+.date-title-home {
+  font-size: 12px;
+}
 .date-title {
   font-size: 12px;
   text-align: center;
-}	
+}
 
 .content {
   max-width: 700px;
