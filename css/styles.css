@@ -1,23 +1,30 @@
-$feather: #eee;
-$bodytext: #444;
-$gentletext: #888;
-$verygentletext: #888;
-$heavytext: #111;
-$pagecolor: #fff;
-
-*, *:before, *:after {
-    box-sizing: inherit;
+body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  background: #F5F5F5;
 }
 
-html, body {
+
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+ul,
+li {
   margin: 0;
   padding: 0;
 }
 
-body {
-
-  font-family: Georgia,Cambria,"Times New Roman",Times,serif;
-  color: $bodytext;
+li {
+  list-style: none;
 }
 
 
@@ -33,15 +40,8 @@ footer {
   padding-bottom: 2em;
   margin-bottom: 4em;
   font-size: 0.7em;
-  color: $gentletext;
 }
-header {
-  border-bottom: solid 1px $feather;
-}
-footer {
-  margin-top: 6em;
-  border-top: solid 1px $feather;
-}
+
 
 
 .container {
@@ -49,12 +49,6 @@ footer {
   padding: 15px;
   margin: 0 auto; 
 }
-
-
-.post-content img {
-  width: 100%;
-}
-
 
 .grid {
   display: flex;
@@ -119,28 +113,6 @@ footer {
 }
 }
 
-
-
-
-h2,h3,h4 {
-  font-family: sans-serif;
-  line-height: 1.1;
-  color: $heavytext;
-}
-
-h2 {
-  font-size: 34px;
-  letter-spacing: -.01em;
-  small {
-    font-size: 0.5em;
-    font-weight: normal;
-    color: $gentletext;
-  }
-}
-
-h3 {
-  margin-top: 2em;
-}
 
 
 
