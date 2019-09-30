@@ -18,13 +18,12 @@ a {
   color: #303030;
 }
 .logo {
-  font-size: 30px;
+  font-size: 10px;
   font-weight: 400;
 }
 header,
 footer {
   font-size: 1em;
-  text-align: center;
 }
 .container {
   max-width: 1200px;
