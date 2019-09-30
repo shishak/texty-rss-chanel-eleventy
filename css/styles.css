@@ -145,9 +145,10 @@ h2 {
 
 @media only screen and (min-width: 64em) {
 .box:nth-of-type(4) img, .box:nth-of-type(5) img {
-    margin-bottom: -160px;
+    margin-bottom: -130px;
+    max-height: 300px;
 }
- .box:nth-of-type(4) h2, .box:nth-of-type(5) h2 {
+ .box:nth-of-type(4) h2, .box:nth-of-type(5) h2, box:nth-of-type(4) .date-title-home, .box:nth-of-type(5) .date-title-home {
     color: #fff;
 }
 }
