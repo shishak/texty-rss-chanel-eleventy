@@ -27,10 +27,7 @@ a:visited {
 }
 header,
 footer {
-  padding-top: 2em;
-  padding-bottom: 2em;
-  margin-bottom: 4em;
-  font-size: 0.7em;
+  font-size: 1.5em;
 }
 .container {
   max-width: 1300px;
