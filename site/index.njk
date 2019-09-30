@@ -2,4 +2,4 @@
 layout: layouts/base.njk
 title: Новини Украины
 ---
-<div class="grid">{% for item in medium.posts %}<div class="col box"><a class="grid-item" href="/{{ item.path }}">{{ item['content:encoded'] | safe }}<div class="grid-item-content"><div class="date-title"> {{ item.pubDate | date }} вiд {{ item.category }}</div><h2>{{ item.title }}</h2></div></a></div>{% endfor %}</div>
+<div class="grid">{% for item in medium.posts %}<div class="col box"><a class="grid-item" href="/{{ item.path }}">{{ item['content:encoded'] | safe }}<div class="grid-item-content"><div class="date-title-home"> {{ item.pubDate | date }} вiд {{ item.category }}</div><h2>{{ item.title }}</h2></div></a></div>{% endfor %}</div>
