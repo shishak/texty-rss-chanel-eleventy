@@ -20,6 +20,7 @@ a {
 header,
 footer {
   font-size: 1em;
+	text-align: center;
 }
 .container {
   max-width: 1300px;
