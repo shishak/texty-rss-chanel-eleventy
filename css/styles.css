@@ -19,13 +19,9 @@ a {
 strong {
   font-weight: 200;
 }
-.logo {
-  font-size: 10px;
-  font-weight: 400;
-}
-header,
-footer {
-  font-size: 1em;
+header {
+   text-align: center;
+   padding: 5px;
 }
 footer {
     background: #f1f1f1;
