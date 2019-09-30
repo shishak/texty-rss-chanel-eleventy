@@ -70,7 +70,7 @@ footer {
   background: #fff;
   border-radius: 3px;
   overflow: hidden;
-  box-shadow: 1px 1px 5px 0 rgba(0,0,0,.02), 1px 1px 15px 0 rgba(0,0,0,.03);
+  border: 1px solid #eee;
  }
 .grid-item:hover {
 	cursor: pointer;
