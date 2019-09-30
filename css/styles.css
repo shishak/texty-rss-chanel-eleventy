@@ -28,8 +28,13 @@ footer {
   font-size: 1em;
 }
 footer {
-  height: 100px;
-  text-align: center;
+    height: 100px;
+    text-align: center;
+    padding: 30px;
+    background: #dedede;
+    margin-top: 50px;
+    font-size: 14px;
+    color: #9c9c9c;
 }
 .container {
   max-width: 1200px;
