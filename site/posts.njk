@@ -4,7 +4,7 @@ pagination:
   data: medium.posts
   size: 1
   alias: item
-permalink: {{ item.path }}/index.html
+permalink: /{{ item.path }}/index.html
 ---
 
 <p class="meta">Published on {{ item.pubDate | date }} <br/>by {{ item['dc:creator'] }}</p>
