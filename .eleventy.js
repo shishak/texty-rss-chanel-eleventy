@@ -14,5 +14,7 @@ module.exports = function(eleventyConfig) {
     },
     feed: process.env.MEDIUM_FEED ||'https://medium.com/feed/netlify'
   };
-
+ 
+  eleventyConfig.addPassthroughCopy("img");
+  
 };
