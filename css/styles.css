@@ -17,6 +17,9 @@ a {
   text-decoration: none;
   color: #303030;
 }
+strong {
+  font-weight: 200;
+}
 .logo {
   font-size: 10px;
   font-weight: 400;
@@ -74,7 +77,7 @@ footer {
 }
 .date-title {
   font-size: 12px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   margin-top: 10px;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   color: gray;
@@ -113,7 +116,7 @@ h1 {
   font-size: 48px;
     font-weight: 500;
     line-height: 42px;
-    margin-top: 200px;
+    margin-top: 250px;
 }
 h2 {
   font-size: 1.5rem;
