@@ -125,7 +125,7 @@ h2 {
 }
 }
 .grid p, .grid table{display:none}
-.grid p:nth-child(1), .grid p:nth-child(2) {
+.grid p:nth-child(1) {
 	display:block;
 	margin:0;
 }
