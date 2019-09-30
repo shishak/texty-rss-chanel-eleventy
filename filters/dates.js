@@ -17,5 +17,5 @@ module.exports = function(date) {
      "Грудня"
   ];
   var d = new Date(date);
-  return month[d.getMonth()] + " " + d.getDate() + " " +d.getUTCFullYear();
+  return d.getDate() + " " + month[d.getMonth()] + " " +d.getUTCFullYear() + "Року";
 }
