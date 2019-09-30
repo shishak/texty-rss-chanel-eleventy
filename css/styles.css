@@ -57,7 +57,7 @@ footer {
   border: 1px solid #eee;
  }
 .grid-item:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 .grid-item img {
   width: 100%;
@@ -92,7 +92,7 @@ footer {
    width: 100%;
 }
 }
-.grid p{display:none}
+.grid p, table{display:none}
 .grid p:nth-child(1) {
 	display:block;
 	margin:0;
