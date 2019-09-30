@@ -17,6 +17,10 @@ a {
   text-decoration: none;
   color: #303030;
 }
+.logo {
+  font-size: 30px;
+  font-width: 800;
+}
 header,
 footer {
   font-size: 1em;
