@@ -5,6 +5,9 @@ $verygentletext: #888;
 $heavytext: #111;
 $pagecolor: #fff;
 
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 
 html, body {
   margin: 0;
