@@ -3,6 +3,8 @@ const postcss = require('postcss')
 const precss = require('precss')
 
 module.exports = function(eleventyConfig) {
+  
+  eleventyConfig.addPassthroughCopy("img");
 
   eleventyConfig.addFilter("date", require("./filters/dates.js") );
 
@@ -18,10 +20,4 @@ module.exports = function(eleventyConfig) {
 };
 
 
-module.exports = function(eleventyConfig) {
-  // Output directory: _site
 
-  // Copy `img/` to `_site/img`
-  eleventyConfig.addPassthroughCopy("img");
-  
-};
