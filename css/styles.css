@@ -74,7 +74,7 @@ footer {
 }
 .date-title {
   font-size: 12px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   margin-top: 10px;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   color: gray;
@@ -114,6 +114,7 @@ h1 {
   font-size: 42px;
     font-weight: 500;
     line-height: 42px;
+    margin-top: 150px;
 }
 h2 {
   font-size: 1.5rem;
