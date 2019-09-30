@@ -70,6 +70,7 @@ footer {
 .date-title {
   font-size: 12px;
   margin-bottom: 30px;
+  margin-top: 10px;
 }
 
 .content {
@@ -94,15 +95,16 @@ h1, h2 {
   margin-bottom: 0;
   margin-right: 0;
   margin-top: 8px;
-  font-weight: 400;
   letter-spacing: -0.5px;
 }
 
 h1 {
   font-size: 2.5rem;
+  font-weight: 600;
 }
 h2 {
   font-size: 1.5rem;
+  font-weight: 400;
 }
 
 .box:nth-of-type(4), .box:nth-of-type(5), .box:nth-of-type(9), .box:nth-of-type(10), .box:nth-of-type(14), .box:nth-of-type(15), .box:nth-of-type(19), .box:nth-of-type(20), .box:nth-of-type(24), .box:nth-of-type(25), .box:nth-of-type(29), .box:nth-of-type(30), .box:nth-of-type(34), .box:nth-of-type(35), .box:nth-of-type(39), .box:nth-of-type(40), .box:nth-of-type(44), .box:nth-of-type(45), .box:nth-of-type(49), .box:nth-of-type(50), .box:nth-of-type(54), .box:nth-of-type(55), .box:nth-of-type(59), .box:nth-of-type(60), .box:nth-of-type(64), .box:nth-of-type(65), .box:nth-of-type(69), .box:nth-of-type(70), .box:nth-of-type(74), .box:nth-of-type(75), .box:nth-of-type(79), .box:nth-of-type(80), .box:nth-of-type(84), .box:nth-of-type(85), .box:nth-of-type(89), .box:nth-of-type(90), .box:nth-of-type(94), .box:nth-of-type(95), .box:nth-of-type(99), .box:nth-of-type(100) {
