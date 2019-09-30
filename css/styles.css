@@ -92,7 +92,7 @@ footer {
    width: 100%;
 }
 }
-.grid p, table{display:none}
+.grid p, .grid table{display:none}
 .grid p:nth-child(1) {
 	display:block;
 	margin:0;
