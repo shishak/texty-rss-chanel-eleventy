@@ -64,7 +64,7 @@ footer {
 }
 .grid-item img {
   width: 100%;
-  max-height: 200px;
+  max-height: 220px;
   object-fit: cover;
 }
 .grid-item-content {
