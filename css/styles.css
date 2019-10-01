@@ -22,7 +22,7 @@ strong {
 header {
    text-align: center;
    padding: 5px;
-   height: 50px;
+   height: 30px;
 }
 footer {
     background: #f1f1f1;
@@ -224,7 +224,7 @@ h2 {
 }
 
 .social {
-    float: left;
+    position: absolute;
 }
 .logo {
    position: absolute;
