@@ -225,4 +225,10 @@ h2 {
 .social {
     float: left;
 }
+.logo {
+   position: absolute;
+   left: 0;
+   right: 0;
+   margin: 0 auto;
+}
 
