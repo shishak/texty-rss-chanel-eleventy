@@ -2,4 +2,4 @@
 layout: layouts/base.njk
 title: Новини Украины
 ---
-<div class="grid"><div class="col box"><a class="grid-item" href="/fihuranta-rozsliduvan-skhem-suddiu-vtikacha-tat-kova-zvil-nyly-z-vyshchoho-hospodars-koho-sudu"><p><img src="https://gdb.rferl.org/F306FE38-1F25-4559-A1E8-C156C2ACC95F_w800_h450.jpg"></h2></div><div class="gradient"></div></a></div>{% for item in medium.posts %}<div class="col box"><a class="grid-item" href="/{{ item.path }}">{{ item['content:encoded'] | safe }}<div class="grid-item-content"><div class="date-title-home"> {{ item.pubDate | date }}</div><h2>{{ item.title }}</h2></div><div class="gradient"></div></a></div>{% endfor %}</div>
+<div class="grid">{% for item in medium.posts %}<div class="col box"><a class="grid-item" href="/{{ item.path }}">{{ item['content:encoded'] | safe }}<div class="grid-item-content"><div class="date-title-home"> {{ item.pubDate | date }}</div><h2>{{ item.title }}</h2></div><div class="gradient"></div></a></div>{% endfor %}</div>
