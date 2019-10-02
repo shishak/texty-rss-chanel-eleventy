@@ -11,7 +11,7 @@ body {
   font-family: Georgia,Cambria,"Times New Roman",Times,serif;
   background: #fafafa;
   padding: 0;
-	margin: 0;
+  margin: 0;
 }
 a {
   text-decoration: none;
@@ -25,16 +25,7 @@ header {
    height: 30px;
 	
 }
-footer {
-    background: #f1f1f1;
-    color: #ababab;
-    font-size: 14px;
-    margin-top: 50px;
-    padding: 100px;
-    text-align: center;
-    width: 100%;
-    float: left;
-}
+
 .container {
   max-width: 1200px;
  padding: 10px;
@@ -165,11 +156,6 @@ h2 {
 
 
 
-.social {
-    position: absolute;
-    display: none;
-}
-
 .logo {
    position: absolute;
    left: 0;
@@ -207,9 +193,6 @@ max-height: 20px;
    color: #fff;
    opacity: .7;
 }
-.social {
-    display: block;
-}
 }
 
 
@@ -228,12 +211,6 @@ max-height: 20px;
 
 
 
-
-
-#footer-logo {
-  height: 45px;
-  width: auto;
-}
 
 hr {
   margin: 0;
