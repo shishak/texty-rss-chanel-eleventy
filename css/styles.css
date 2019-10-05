@@ -22,8 +22,11 @@ strong {
 }
 header {
    text-align: center;
-   height: 30px;
+   height: 40px;
 	
+}
+.logo {
+   margin-top: 15px;
 }
 
 .container {
