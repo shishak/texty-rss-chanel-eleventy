@@ -6,4 +6,5 @@ pagination:
   alias: item
 permalink: /{{ item.path }}/index.html
 ---
-<div class="content"><h1>{{ item.title }}</h1><div class="date-title">{{ item.pubDate | date }} Джерело: {{ item.category }}</div>{{ item['content:encoded'] | safe }}</div><div class="sidebar">Цивільна дружина народного депутата від «Опозиційної платформи – За життя» Тараса Козака Наталія Лавренюк має спільний нафтовий бізнес у Росії з подружжям Оксани Марченко і Віктора Медведчука і численне майно в Україні, водночас парламентар не згадує про неї у своїй декларації. Про це йдеться в розслідуванні програми «Схеми: корупція в деталях» (спільний проект Радіо Свобода і телеканалу «UA:Перший») – «У російському бізнесі тільки дівчата».</div>
+<div class="content"><h1>{{ item.title }}</h1><div class="date-title">{{ item.pubDate | date }} Джерело: {{ item.category }}</div>{{ item['content:encoded'] | safe }}</div>
+<div class="sidebar">{% for item in home.posts %}<div class="col box"><a class="grid-item" href="/{{ item.path }}">{{ item['content:encoded'] | safe }}<div class="grid-item-content"><div class="date-title-home"> {{ item.pubDate | date }}</div><h2>{{ item.title }}</h2></div></a></div>{% endfor %}</div>
