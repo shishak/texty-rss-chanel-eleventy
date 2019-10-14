@@ -36,6 +36,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   margin: 0 -15px;
+  width: 100%;
 }
 .box {
   width: 33.33%;
@@ -105,8 +106,7 @@ header {
 
 .sidebar {
    width: 300px;
-   height: 800px;
-  float: right;
+  float: left;
    margin: 50px;
 }
 	
