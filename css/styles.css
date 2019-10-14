@@ -76,7 +76,7 @@ header {
 }
 .date-title {
   font-size: 12px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   margin-top: 10px;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   color: gray;
@@ -97,11 +97,9 @@ header {
 }
 
 .content img {
-    margin-bottom: 50px;
-    margin-left: -40px;
+    margin-bottom: 50px;    
     max-height: 450px;
-    object-fit: cover;
-    width: 115%;
+    object-fit: cover;    
     box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
 }
 
