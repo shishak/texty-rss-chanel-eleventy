@@ -5,7 +5,6 @@ const precss = require('precss')
 module.exports = function(eleventyConfig) {
   
   eleventyConfig.addPassthroughCopy("img");
-  eleventyConfig.addPassthroughCopy("manifest.json");
 
   eleventyConfig.addFilter("date", require("./filters/dates.js") );
 
